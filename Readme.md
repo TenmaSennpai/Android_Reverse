@@ -6,10 +6,10 @@
 3. JDK里有keytools可以生成签名  
 4. JDK里的jarsigner可以给apk签名  
 #### 下载网址
-1. [JRE1.8 官网](https://www.oracle.com/java/technologies/javase-jre8-downloads.html)  
-2. [JDK1.8 官网](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)  
-3. [APKtool 官网](http://ibotpeaches.github.io/Apktool/install/)  
-4. [JD-GUI 官网](http://jd.benow.ca/)  
+1. [JRE1.8 官网下载](https://www.oracle.com/java/technologies/javase-jre8-downloads.html)  
+2. [JDK1.8 官网下载](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)  
+3. [APKtool 官网下载](http://ibotpeaches.github.io/Apktool/install/)  
+4. [JD-GUI 官网下载](http://jd.benow.ca/)  
 5.  [dex2jar-tools-2.1.zip](https://raw.githubusercontent.com/TenmaSennpai/Android_Reverse/master/dex2jar-tools-2.1.zip) 
 #### 安装要点
 1. JRE和JDK需要加入PATH，一般是系统变量PATH  
