@@ -10,7 +10,7 @@
 2. [JDK1.8 官网](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)  
 3. [APKtool 官网](http://ibotpeaches.github.io/Apktool/install/)  
 4. [JD-GUI 官网](http://jd.benow.ca/)  
-5.  [dex2jar-tools-2.1.zip](https://files-cdn.cnblogs.com/files/onelikeone/dex2jar-tools-2.1.zip) 
+5.  [dex2jar-tools-2.1.zip](https://raw.githubusercontent.com/TenmaSennpai/Android_Reverse/master/dex2jar-tools-2.1.zip) 
 #### 安装要点
 1. JRE和JDK需要加入PATH，一般是系统变量PATH  
 2. APKtools的安装严格按官网来，这样后续会比较方便  
