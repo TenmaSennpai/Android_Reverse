@@ -28,7 +28,7 @@ demo.keystore 为生成的签名文件名称
 #### 转换
 cd到dex-tools目录，powershell运行命令：
 
-    .\d2j-dex2jar.bat C:\Users\Kyaru\Desktop\myapp1\classes.dex  
+    .\d2j-dex2jar.bat C:\Users\Kyaru\Desktop\myapp1\classes.dex
 （注：通常要转换好几个classes.dex）
 #### 查看代码
 打开JD-GUI，将转换好的全部.jar拖入JD-GUI开始分析
@@ -41,15 +41,15 @@ cd到myapp1.apk所在目录，powershell运行命令：
 #### 编译apk
 cd到myapp1.apk所在目录，powershell运行命令：
 
-    apktool b C:\Users\Kyaru\Desktop\release\myapp1 -o test1.apk  
+    apktool b C:\Users\Kyaru\Desktop\release\myapp1 -o test1.apk
 #### 生产签名文件
 cd到test1.apk所在目录，powershell运行命令：
 
-    keytool -genkey -alias demo.keystore -keyalg RSA -validity 40000 -keystore demo.keystore  
+    keytool -genkey -alias demo.keystore -keyalg RSA -validity 40000 -keystore demo.keystore
 #### 给apk签名： 
 cd到test1.apk所在目录，powershell运行命令：
 
-    jarsigner -verbose -keystore demo.keystore test1.apk demo.keystore  
+    jarsigner -verbose -keystore demo.keystore test1.apk demo.keystore
 ## 参考网址
 [1]. [简单的Android逆向教程 - 52.pojie.cn](https://www.52pojie.cn/forum.php?mod=viewthread&tid=822434)  
 [2]. [Smail基础教程 - blog.csdn.net](https://blog.csdn.net/yuanguozhengjust/article/details/80493963)  
