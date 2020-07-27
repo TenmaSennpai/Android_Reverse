@@ -42,7 +42,7 @@ cd到myapp1.apk所在目录，powershell运行命令：
 cd到myapp1.apk所在目录，powershell运行命令：
 
     apktool b C:\Users\Kyaru\Desktop\release\myapp1 -o test1.apk
-#### 生产签名文件
+#### 生成签名文件
 cd到test1.apk所在目录，powershell运行命令：
 
     keytool -genkey -alias demo.keystore -keyalg RSA -validity 40000 -keystore demo.keystore
