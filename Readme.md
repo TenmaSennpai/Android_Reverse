@@ -2,7 +2,7 @@
 ## 环境
 #### 说明
 1. dex2jar-tools是用来转换 .dex 到 .jar 的  
-2. JD-GUI是用来查看转换后的 .jar 的,用来分析代码  
+2. JD-GUI是用来查看转换后的 .jar 的，用来分析代码  
 3. JDK里有keytools可以生成签名  
 4. JDK里的jarsigner可以给apk签名  
 #### 下载网址
@@ -10,10 +10,10 @@
 2. [JDK1.8 官网下载](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)  
 3. [APKtool 官网下载](http://ibotpeaches.github.io/Apktool/install/)  
 4. [JD-GUI 官网下载](http://jd.benow.ca/)  
-5.  [dex2jar-tools-2.1.zip](https://raw.githubusercontent.com/TenmaSennpai/Android_Reverse/master/dex2jar-tools-2.1.zip) 
+5. [dex2jar-tools-2.1.zip](https://raw.githubusercontent.com/TenmaSennpai/Android_Reverse/master/dex2jar-tools-2.1.zip)
 #### 安装要点
 1. JRE和JDK需要加入PATH，一般是系统变量PATH  
-2. APKtools的安装严格按官网来，这样后续会比较方便  
+2. Apktool的安装严格按官网来，这样后续会比较方便  
 3. dex2jar-tools必须要安装2.1及以上的版本，支持Android N  
 ## 步骤
 #### 命名说明
