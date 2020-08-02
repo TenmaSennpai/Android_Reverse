@@ -35,7 +35,7 @@ cd到dex-tools目录，powershell运行命令：
 #### 反编译apk
 cd到myapp1.apk所在目录，powershell运行命令：
 
-    apktool d -o myapp1.apk
+    apktool d myapp1.apk
 #### 更改代码
 根据之前的分析，将反编译的smail等更改
 #### 编译apk
